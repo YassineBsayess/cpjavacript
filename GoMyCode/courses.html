@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Courses | Checkpoint #2</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="adiv" style="text-align: center;">
+		<a class="link" class="active" href="index.html">Home</a>
+		<a class="link" class="active" href="courses.html">Course</a>
+		<a class="link" class="active" href="contact.html">Contact</a>
+</div>
+<br>
+<img src="res/coursesimg.png" style="width:1280px;height:500px;">
+<br>
+<br>
+<br>
+<br>
+<div align="center" class="imgs">
+		<img class="imgblockindex" src="res/course1.png" alt="Course Image #1" style="width:350px;height:250px;">
+		<img class="imgblockindex" src="res/course2.png" alt="Course Image #2" style="width:350px;height:250px;">
+		<img class="imgblockindex" src="res/course3.png" alt="Course Image #3" style="width:350px; height:250px;">
+	</div>
+<div>
+	<div align="center" class="imgs">
+		<img class="imgblockindex" src="res/course4.png" alt="Course Image #4" style="width:350px; height:250px;">
+		<img class="imgblockindex" src="res/course5.png" alt="Course Image #5" style="width:350px; height:250px;">
+		<img class="imgblockindex" src="res/course6.png" alt="Course Image #6" style="width:350px; height:250px;">
+</div>
+<div>
+	<div align="center" class="imgs">
+		<img class="imgblockindex" src="res/course7.png" alt="Course Image #7" style="width:350px; height:250px;">
+		<img class="imgblockindex" src="res/course8.png" alt="Course Image #8" style="width:350px; height:250px;">
+		<img class="imgblockindex" src="res/course9.png" alt="Course Image #9" style="width:350px; height:250px;">
+</div>
+<div align="center">
+
+<form>
+	
+		<input type="button" onclick="bold()"name="B" value="B">
+		<input type="button" onclick="italic()"name="I" value="I">
+		<input type="button" onclick="underline()" name="Underline" value="Underline">
+
+	<select id="select" onchange="sizee()" >
+		<option value="20px">20px</option>
+		<option value="30px">30px</option>
+		<option value="40px">40px</option>
+	</select>
+	<select id="select2" onchange="fontt()">
+		<option value="Arial">Arial</option>
+		<option value="Verdana">Verdana</option>
+		<option value="Geneva">Geneva</option>
+	</select><br>
+	<textarea cols="50" rows="10" id="text"></textarea>
+</form>
+</div>
+
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

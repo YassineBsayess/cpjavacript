@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	background-image: linear-gradient(to right, black , red);
+}
+
+.indexbody {
+	background-image: linear-gradient(to right, black , red);
+}
+
+.test {
+	text-align: center;
+	color: red;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+.imgblockindex {
+	width: 400px;
+	height: 300px;
+}
+
+.imgblockindex:hover {
+	opacity: 0.5;
+
+}
+.img:hover {
+	opacity: 0.5
+}
+.link {
+
+  font-family: monospace;
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px;
+  text-decoration: none;
+  color
+
+}
+
+
+.adiv {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8b0000;
+  text-align: center;
+  height: 60px;
+
+
+}
+
+.active {
+	align-content: center;
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+a:hover {
+  background-color: #111;
+  color: red;
+}
+
+.videoblock {
+	text-align: center;
+}
+.videoindex {
+	width: 320px;
+	height: 240px;
+	align-content: center;
+}
